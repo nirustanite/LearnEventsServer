@@ -60,3 +60,5 @@ router.delete("/events/:id", (req,res) => {
         return res.status(404).end();
     })
 })
+
+module.exports = router
